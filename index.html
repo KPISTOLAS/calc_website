@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+       body {
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20200604/pngtree-hand-account-style-mathematics-education-background-image_337863.jpg'); 
+    background-size: cover;
+  background-position: center;
+       }
+
+
+.button-container {
+    text-align: center;
+}
+
+button   {
+    padding: 10px 20px;
+    margin: 5px;  padding: 15px 30px; /* Increase padding for bigger buttons */
+    margin: 10px; /* Increase margin for spacing */
+    font-size: 16px; /* Increase font size for button text */
+    background-color: #3498db; /* Change background color */
+    color: #fff; /* Change text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    cursor: pointer;
+}
+input  {
+padding: 10px 20px;
+    margin: 5px;  padding: 15px 30px; /* Increase padding for bigger buttons */
+    margin: 10px; /* Increase margin for spacing */
+    font-size: 16px; /* Increase font size for button text */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    cursor: pointer;
+}
+select {
+padding: 10px 20px;
+    margin: 5px;  padding: 15px 30px; /* Increase padding for bigger buttons */
+    margin: 10px; /* Increase margin for spacing */
+    font-size: 16px; /* Increase font size for button text */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    cursor: pointer;
+}
+ #variableBox {
+            padding: 20px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div  class="button-container">
+ <input type="number" id="num1" placeholder="Enter number 1">
+    
+    <select type="text" id="selector">
+    <option  value="+">+</option>
+    <option  value="-">-</option>
+    <option  value="*">*</option>
+    <option  value="/">/</option>
+</select>
+
+<input type="number" id="num2" placeholder="Enter number 2">
+
+    <button onclick="addNumbersAndAlert()">See results</button>
+
+</div>
+<br>
+<br>
+<div>
+    <button id="variableBox"></button>
+</div>
+
+
+
+ <script src="index.js">
+
+    </script>
+</body>
+</html>
